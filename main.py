@@ -35,7 +35,7 @@ def plot_score_analysis(df_cal):
     st.pyplot(fig)
 
 
-if __name__=="__main__":
+def main():
 
     sel_option=[]
 
@@ -90,3 +90,6 @@ if __name__=="__main__":
     final_score = df_cal[["total_score"]].sum()
     result = final_score[0]
     st.metric("Your current score is",round(result,2),delta=round(20-result,2))
+
+if __name__=="__main__":
+    main()
