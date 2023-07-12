@@ -1,0 +1,4 @@
+div[data-testid="metric-container"]{
+    background-color: aquamarine;
+    width: 30%;
+}
