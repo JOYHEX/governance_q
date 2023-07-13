@@ -1,4 +1,14 @@
 div[data-testid="metric-container"]{
     background-color: aquamarine;
     width: 30%;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+div[role="listbox"] ul {
+    background-color: rgb(142, 178, 245);
+}
+
+div[data-baseweb="select"] > div {
+    background-color: rgb(201, 207, 195);
 }
