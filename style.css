@@ -12,3 +12,9 @@ div[role="listbox"] ul {
 div[data-baseweb="select"] > div {
     background-color: rgb(201, 207, 195);
 }
+
+div.streamlit-expanderHeader.st-ae.st-bp.st-ag.st-ah.st-ai.st-aj.st-bq.st-br.st-bs.st-bt.st-bu.st-bv.st-bw.st-as.st-at.st-bx.st-by.st-bz.st-c0.st-cb.st-b4.st-c2.st-c3.st-c4.st-b5.st-c5.st-c6.st-c7.st-c8{
+    color: darkblue;
+    font-weight: bold;
+}
+
