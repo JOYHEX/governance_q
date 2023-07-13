@@ -14,8 +14,8 @@ def plot_score_analysis(df_cal):
     index = df_cal.index
 
     # Plotting bars
-    rects1 = ax.bar(index, df_cal['total_score'], bar_width, label='Score')
-    rects2 = ax.bar(index + bar_width, df_cal['ideal_total_score'], bar_width, label='Target Score')
+    rects1 = ax.bar(index, df_cal['total_score'], bar_width, label='Score', color="#fbceb1")
+    rects2 = ax.bar(index + bar_width, df_cal['ideal_total_score'], bar_width, label='Target Score', color="#72e279")
 
     # X-axis labels
     ax.set_xticks(index + bar_width / 2)
@@ -40,7 +40,7 @@ def main():
     sel_option=[]
 
     # read the file for the questions and the hints
-    st.header("Master Data Governance Maturity Evaluator")
+    st.header("Data Governance Maturity Evaluator")
 
     q_file=open("questions.json")
     input_data=json.load(q_file)
@@ -87,9 +87,11 @@ def main():
     plot_score_analysis(df_cal)
 
     # final score display
-    final_score = df_cal[["total_score"]].sum()
+    final_score = (df_cal[["total_score"]].sum())*100/20
     result = final_score[0]
-    st.metric("Your current score is",round(result,2),delta=round(20-result,2))
+    delta_score=round(((result-100)*100/100),2)
+    st.metric("Your current score is",round(result,2),delta=delta_score)
+
 
 if __name__=="__main__":
     main()
