@@ -50,7 +50,7 @@ def main():
         with st.expander(category["category"]):
             for question in category["QList"]:
                 id = question["name"]
-                ans=question["hints"]
+                #ans=question["hints"]
                 sel_option.append(st.radio
                     (
                         question["question"],
