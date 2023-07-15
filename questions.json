@@ -1,422 +1,249 @@
 [
     
     {
-        "category":"Data Governance and Strategy",
+        "category":"Governance Framework",
+        "category_wt":15,
         "QList":
         [
             {
                 "name":"q1",
-                "question":"Is there a formal data governance framework in place?",
-                "hints":[
-                    {"cat_ID":1,"cat_wt":10,"q":" Yes, there is a well-defined and documented data governance framework.","w":5,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Partially, some elements of a data governance framework are established, but it is not fully formalized.","w":4,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" No, there is no formal data governance framework in place.","w":1,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" In progress, efforts are underway to establish a data governance framework, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Unsure, the status of the data governance framework is unknown or not clearly communicated.","w":2,"id":"a1"}
-                ]
+                "question":"Is there a documented data governance framework in place?",
+                "category_wt":10
                 
             },
             {
                 "name":"q2",
-                "question":"Are roles and responsibilities for data governance clearly defined?",
-                "hints":[
-                    {"cat_ID":1,"cat_wt":10,"q":" Yes, roles and responsibilities for data governance are clearly defined, documented, and communicated.","w":5,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Partially, some roles and responsibilities for data governance are defined, but there may be gaps or ambiguity.","w":4,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" No, roles and responsibilities for data governance are not clearly defined.","w":1,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" In progress, efforts are underway to define and establish roles and responsibilities for data governance, but it is not fully completed.","w":3,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Unsure, the clarity and definition of roles and responsibilities for data governance are unknown or not clearly communicated.","w":2,"id":"a1"}
-                ]
+                "question":"Are data governance roles and responsibilities clearly defined and communicated?",
+                "category_wt":10
                 
             },
             {
                 "name":"q3",
-                "question":"Does the organization have a documented data strategy and roadmap?",
-                "hints":[
-                    {"cat_ID":1,"cat_wt":10,"q":" Yes, there is a well-documented data strategy and roadmap that outlines the organizations approach to managing data.","w":5,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Partially, some aspects of a data strategy and roadmap are documented, but it may not be comprehensive or fully developed.","w":4,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" No, there is no documented data strategy and roadmap in place.","w":1,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" In progress, efforts are underway to develop a data strategy and roadmap, but it is not fully completed or communicated.","w":3,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Unsure, the status of the organizations data strategy and roadmap is unknown or not clearly communicated.","w":2,"id":"a1"}
- 
-                ]
+                "question":"Is there a data governance steering committee or governing body established?",
+                "category_wt":10
                 
             },
             {
                 "name":"q4",
-                "question":"Are there established data quality standards and processes?",
-                "hints":[
-                    {"cat_ID":1,"cat_wt":10,"q":" Yes, there are well-established data quality standards and processes that are documented, implemented, and regularly reviewed.","w":5,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Partially, some data quality standards and processes are in place, but they may not be fully comprehensive or consistently followed.","w":4,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" No, there are no established data quality standards and processes.","w":1,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" In progress, efforts are underway to define and establish data quality standards and processes, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":1,"cat_wt":10,"q":" Unsure, the status of data quality standards and processes is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                ]
+                "question":"Are data governance policies and procedures documented and enforced?",
+                "category_wt":10
                 
             }
         ]
     },
     {
-        "category":"Data Management Processes",
+        "category":"Data Strategy and Planning",
+        "category_wt":15,
         "QList":
         [
             {
                 "name":"q5",
-                "question":"Are there defined processes for data capture, validation, and cleansing?",
-                "hints":[
-                    {"cat_ID":2,"cat_wt":15,"q":" Yes, there are well-defined processes for data capture, validation, and cleansing that are documented, implemented, and regularly followed.","w":5,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Partially, some processes for data capture, validation, and cleansing are in place, but they may not be fully comprehensive or consistently followed.","w":4,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" No, there are no defined processes for data capture, validation, and cleansing.","w":1,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" In progress, efforts are underway to define and establish processes for data capture, validation, and cleansing, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Unsure, the status of processes for data capture, validation, and cleansing is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                ]
+                "question":"Is there a defined data strategy aligned with business objectives?",
+                "category_wt":10
             },
             {
                 "name":"q6",
-                "question":"Is there a centralized data repository for master data?",
-                "hints":[
-                    {"cat_ID":2,"cat_wt":15,"q":" Yes, there is a centralized data repository specifically dedicated to storing and managing master data.","w":5,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Partially, there is a partially centralized data repository for master data, but it may not cover all domains or be fully implemented.","w":4,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" No, there is no centralized data repository for master data.","w":1,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" In progress, efforts are underway to establish a centralized data repository for master data, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Unsure, the status of a centralized data repository for master data is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                ]
+                "question":"Has a data governance roadmap or plan been developed?",
+                "category_wt":10
             },
             {
                 "name":"q7",
-                "question":"Are data integration processes well-documented and regularly reviewed?",
-                "hints":[
-                    {"cat_ID":2,"cat_wt":15,"q":" Yes, data integration processes are well-documented and regularly reviewed to ensure their effectiveness and efficiency.","w":5,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Partially, some data integration processes are documented and reviewed, but there may be gaps or inconsistencies.","w":4,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" No, data integration processes are not well-documented, and there is no regular review process in place.","w":1,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" In progress, efforts are underway to document and review data integration processes, but it is not fully completed.","w":3,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Unsure, the status of the documentation and review of data integration processes is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                    
-                ]
+                "question":"Is there a process for identifying critical data elements and defining data quality requirements?",
+                "category_wt":10
             },
             {
                 "name":"q8",
-                "question":"Are there mechanisms in place to ensure data consistency and accuracy across systems?",
-                "hints":[
-                    {"cat_ID":2,"cat_wt":15,"q":" Yes, there are well-established mechanisms in place to ensure data consistency and accuracy across systems. These mechanisms are documented, implemented, and regularly monitored.","w":5,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Partially, there are some mechanisms in place to ensure data consistency and accuracy across systems, but they may not be fully comprehensive or consistently followed.","w":4,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" No, there are no specific mechanisms in place to ensure data consistency and accuracy across systems.","w":1,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" In progress, efforts are underway to establish mechanisms for data consistency and accuracy across systems, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":2,"cat_wt":15,"q":" Unsure, the status of mechanisms for data consistency and accuracy across systems is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                    
-                ]
+                "question":"Are data classification and data lifecycle management practices in place?",
+                "category_wt":10
+            }
+        ]
+    },
+    {
+        "category":"Data Governance Organization",
+        "category_wt":10,
+        "QList":
+        [
+            {
+                "name":"q9",
+                "question":"Is there a dedicated data governance team or responsible individuals?",
+                "category_wt":10
+            },
+            {
+                "name":"q10",
+                "question":"Do data governance roles exist at different organizational levels?",
+                "category_wt":10
+            },
+            {
+                "name":"q11",
+                "question":"Are there sufficient resources and skills to support data governance initiatives?",
+                "category_wt":10
+            },
+            {
+                "name":"q12",
+                "question":"Is there a mechanism for collaboration and communication among data governance stakeholders?",
+                "category_wt":10
             }
         ]
     },
     {
         "category":"Data Quality Management",
-        "QList":
-        [
-            {
-                "name":"q9",
-                "question":"Are there metrics and KPIs to measure data quality?",
-                "hints":[
-                    {"cat_ID":3,"cat_wt":15,"q":" Yes, there are well-defined metrics and key performance indicators (KPIs) to measure data quality. These metrics are documented, implemented, and regularly monitored.","w":5,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Partially, some metrics and KPIs exist to measure data quality, but they may not cover all relevant aspects or be consistently used.","w":4,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" No, there are no specific metrics and KPIs in place to measure data quality.","w":1,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" In progress, efforts are underway to establish metrics and KPIs for measuring data quality, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Unsure, the status of metrics and KPIs for measuring data quality is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                    
-                ]
-            },
-            {
-                "name":"q10",
-                "question":"Is there a data quality monitoring and measurement framework?",
-                "hints":[
-                    {"cat_ID":3,"cat_wt":15,"q":" Yes, there is a well-established data quality monitoring and measurement framework in place. It includes defined processes, tools, and resources for continuous monitoring and measurement of data quality.","w":5,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Partially, there are some elements of a data quality monitoring and measurement framework, but it may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" No, there is no specific data quality monitoring and measurement framework in place.","w":1,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" In progress, efforts are underway to develop a data quality monitoring and measurement framework, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Unsure, the status of the data quality monitoring and measurement framework is unknown or not clearly communicated.","w":2,"id":"a1"}                    
-                    
-                ]
-            },
-            {
-                "name":"q11",
-                "question":"Are there defined processes to address data quality issues and exceptions?",
-                "hints":[
-                    {"cat_ID":3,"cat_wt":15,"q":" Yes, there are well-defined processes in place to address data quality issues and exceptions. These processes are documented, implemented, and regularly followed.","w":5,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Partially, some processes exist to address data quality issues and exceptions, but they may not be fully comprehensive or consistently followed.","w":4,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" No, there are no defined processes to address data quality issues and exceptions.","w":1,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" In progress, efforts are underway to define and establish processes for addressing data quality issues and exceptions, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Unsure, the status of processes to address data quality issues and exceptions is unknown or not clearly communicated.","w":2,"id":"a1"}
-                    
-                    
-                    
-                ]
-            },
-            {
-                "name":"q12",
-                "question":"Is there a data stewardship program to manage data quality and remediation?",
-                "hints":[
-                    {"cat_ID":3,"cat_wt":15,"q":" Yes, there is a well-established data stewardship program in place to manage data quality and remediation. The program includes defined roles, responsibilities, and processes for data stewardship activities.","w":5,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Partially, there are some elements of a data stewardship program, but it may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" No, there is no specific data stewardship program to manage data quality and remediation.","w":1,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" In progress, efforts are underway to establish a data stewardship program, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":3,"cat_wt":15,"q":" Unsure, the status of the data stewardship program for managing data quality and remediation is unknown or not clearly communicated.","w":2,"id":"a1"} 
-                    
-                ]
-            }
-        ]
-    },
-    {
-        "category":"Data Integration and Interoperability",
+        "category_wt":20,
         "QList":
         [
             {
                 "name":"q13",
-                "question":"Are there established data integration standards and protocols?",
-                "hints":[
-                    {"cat_ID":4,"cat_wt":10,"q":" Yes, there are well-defined data integration standards and protocols that are documented, implemented, and followed consistently.","w":5,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Partially, some data integration standards and protocols are in place, but they may not cover all relevant aspects or be consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" No, there are no specific data integration standards and protocols established.","w":1,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" In progress, efforts are underway to define and establish data integration standards and protocols, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Unsure, the status of established data integration standards and protocols is unknown or not clearly communicated.","w":2,"id":"a1"}
-                ]
+                "question":"Are data quality standards defined and monitored?",
+                "category_wt":10
             },
             {
                 "name":"q14",
-                "question":"Is there a defined approach for integrating master data across systems?",
-                "hints":[
-                    {"cat_ID":4,"cat_wt":10,"q":" Yes, there is a well-defined approach for integrating master data across systems. The approach is documented, implemented, and consistently followed.","w":5,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Partially, there is some level of defined approach for integrating master data across systems, but it may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" No, there is no specific defined approach for integrating master data across systems.","w":1,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" In progress, efforts are underway to define and establish an approach for integrating master data across systems, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Unsure, the status of a defined approach for integrating master data across systems is unknown or not clearly communicated.","w":2,"id":"a1"}                                     
-                    
-                ]
+                "question":"Is there a data quality issue identification and resolution process?",
+                "category_wt":10
             },
             {
                 "name":"q15",
-                "question":"Are there data integration tools or platforms in use?",
-                "hints":[
-                    {"cat_ID":4,"cat_wt":10,"q":" Yes, there are data integration tools or platforms in use that are specifically utilized for integrating data across systems.","w":5,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Partially, some data integration tools or platforms are used, but they may not cover all integration needs or be fully implemented.","w":4,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" No, there are no specific data integration tools or platforms in use.","w":1,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" In progress, efforts are underway to implement data integration tools or platforms, but they are not fully deployed or utilized.","w":3,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Unsure, the status of data integration tools or platforms in use is unknown or not clearly communicated.","w":2,"id":"a1"} 
-                ]
+                "question":"Are data quality metrics tracked and reported regularly?",
+                "category_wt":10
             },
             {
                 "name":"q16",
-                "question":"Are there established processes for data mapping, transformation, and harmonization?",
-                "hints":[
-                    {"cat_ID":4,"cat_wt":10,"q":" Yes, there are well-established processes for data mapping, transformation, and harmonization. These processes are documented, implemented, and consistently followed.","w":5,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Partially, some processes for data mapping, transformation, and harmonization are in place, but they may not cover all relevant aspects or be consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" No, there are no specific established processes for data mapping, transformation, and harmonization.","w":1,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" In progress, efforts are underway to define and establish processes for data mapping, transformation, and harmonization, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":4,"cat_wt":10,"q":" Unsure, the status of established processes for data mapping, transformation, and harmonization is unknown or not clearly communicated.","w":2,"id":"a1"}                    
-                ]
+                "question":"Is there a feedback loop for data consumers to report data quality issues?",
+                "category_wt":10
             }
         ]
     },
     {
-        "category":"Technology and Infrastructure",
+        "category":"Data Privacy and Security",
+        "category_wt":10,
         "QList":
         [
             {
                 "name":"q17",
-                "question":"Are there established data integration standards and protocols?",
-                "hints":[
-                    {"cat_ID":5,"cat_wt":10,"q":"Yes, there is a dedicated MDM system or platform in place that is specifically designed to manage master data.","w":5,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Partially, there is a partially dedicated MDM system or platform in use, but it may not cover all master data domains or be fully implemented.","w":4,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"No, there is no dedicated MDM system or platform in place.","w":1,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"In progress, efforts are underway to implement a dedicated MDM system or platform, but it is not fully deployed or utilized.","w":3,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Unsure, the status of a dedicated MDM system or platform is unknown or not clearly communicated.","w":2,"id":"a1"}                    
-                ]
+                "question":"Is there a privacy and security policy framework in place?",
+                "category_wt":10
             },
             {
                 "name":"q18",
-                "question":"Is there a defined approach for integrating master data across systems?",
-                "hints":[
-                    {"cat_ID":5,"cat_wt":10,"q":"Yes, the organization has the necessary infrastructure in place to support MDM initiatives. This includes hardware, software, and network resources.","w":5,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Partially, the organization has some elements of the necessary infrastructure for MDM initiatives, but it may lack certain components or require further improvements.","w":4,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"No, the organization does not have the necessary infrastructure to support MDM initiatives.","w":1,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"In progress, efforts are underway to establish the necessary infrastructure for MDM initiatives, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Unsure, the status of the organization's infrastructure to support MDM initiatives is unknown or not clearly communicated.","w":2,"id":"a1"}
-                ]
+                "question":"Are data privacy regulations (e.g., GDPR, CCPA) considered and addressed?",
+                "category_wt":10
             },
             {
                 "name":"q19",
-                "question":"Are there data integration tools or platforms in use?",
-                "hints":[
-                    {"cat_ID":5,"cat_wt":10,"q":"Yes, there are robust data security measures in place to protect master data. These measures include access controls, encryption, data masking, and regular security audits.","w":5,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Partially, some data security measures are implemented, but there may be gaps or areas that require improvement.","w":4,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"No, there are no specific data security measures in place to protect master data.","w":1,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"In progress, efforts are underway to establish data security measures for protecting master data, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Unsure, the status of data security measures to protect master data is unknown or not clearly communicated.","w":2,"id":"a1"}                    
-                ]
+                "question":"Is there a data classification framework that includes privacy sensitivity?",
+                "category_wt":10
             },
             {
                 "name":"q20",
-                "question":"Are there established processes for data mapping, transformation, and harmonization?",
-                "hints":[
-                    {"cat_ID":5,"cat_wt":10,"q":"Yes, there is ongoing investment in technology to support MDM goals. The organization allocates resources and budgets for acquiring and upgrading MDM technology.","w":5,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Partially, there are some investments in technology to support MDM goals, but they may not be consistent or sufficient.","w":4,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"No, there is no ongoing investment in technology to support MDM goals.","w":1,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"In progress, efforts are underway to increase investment in technology to support MDM goals, but it is not fully realized.","w":3,"id":"a1"},
-                    {"cat_ID":5,"cat_wt":10,"q":"Unsure, the status of ongoing investment in technology to support MDM goals is unknown or not clearly communicated.","w":2,"id":"a1"}                                     
-                ]
+                "question":"Are appropriate access controls and data protection measures implemented?",
+                "category_wt":10
             }
         ]
     },
     {
-        "category":"Data Ownership and Accountability",
+        "category":"Data Stewardship and Ownership",
+        "category_wt":10,
         "QList":
         [
             {
                 "name":"q21",
-                "question":"Are there established data integration standards and protocols?",
-                "hints":[
-                    {"cat_ID":6,"cat_wt":10,"q":"Yes, data ownership roles are clearly defined for different master data domains. Roles and responsibilities are documented, assigned, and understood by stakeholders.","w":5,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Partially, some data ownership roles are defined for certain master data domains, but there may be gaps or inconsistencies in other domains.","w":4,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"No, data ownership roles are not clearly defined for any master data domains.","w":1,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"In progress, efforts are underway to define and establish data ownership roles for different master data domains, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Unsure, the status of data ownership roles for different master data domains is unknown or not clearly communicated.","w":2,"id":"a1"}                                      
-                ]
+                "question":"Are data stewards assigned to manage data assets?",
+                "category_wt":10
             },
             {
                 "name":"q22",
-                "question":"Is there a defined approach for integrating master data across systems?",
-                "hints":[
-                    {"cat_ID":6,"cat_wt":10,"q":"Yes, there is a well-defined process in place for resolving data ownership conflicts. The process is documented, communicated, and consistently followed.","w":5,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Partially, there are some elements of a process for resolving data ownership conflicts, but it may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"No, there is no specific defined process for resolving data ownership conflicts.","w":1,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"In progress, efforts are underway to define and establish a process for resolving data ownership conflicts, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Unsure, the status of a defined process for resolving data ownership conflicts is unknown or not clearly communicated.","w":2,"id":"a1"}                    
-                ]
+                "question":"Is there a clear understanding of data ownership and accountability?",
+                "category_wt":10
             },
             {
                 "name":"q23",
-                "question":"Are there data integration tools or platforms in use?",
-                "hints":[
-                    {"cat_ID":6,"cat_wt":10,"q":"Yes, data stewards are assigned to oversee and manage specific master data domains. They have defined roles, responsibilities, and authority over the respective domains.","w":5,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Partially, some data stewards are assigned to oversee and manage specific master data domains, but there may be gaps or inconsistencies in coverage.","w":4,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"No, there are no data stewards assigned to oversee and manage specific master data domains.","w":1,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"In progress, efforts are underway to assign data stewards to oversee and manage specific master data domains, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Unsure, the status of data stewards assigned to oversee and manage specific master data domains is unknown or not clearly communicated.","w":2,"id":"a1"}                                    
-                ]
+                "question":"Are data governance practices integrated into data stewardship responsibilities?",
+                "category_wt":10
             },
             {
                 "name":"q24",
-                "question":"Are there established processes for data mapping, transformation, and harmonization?",
-                "hints":[
-                    {"cat_ID":6,"cat_wt":10,"q":"Yes, there is a strong culture of accountability for data quality and integrity. Employees and stakeholders are held responsible for maintaining and ensuring the quality and integrity of data.","w":5,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Partially, there is some level of accountability for data quality and integrity, but it may not be consistently enforced or ingrained in the organizational culture.","w":4,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"No, there is no specific culture of accountability for data quality and integrity.","w":1,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"In progress, efforts are underway to foster a culture of accountability for data quality and integrity, but it is not fully established.","w":3,"id":"a1"},
-                    {"cat_ID":6,"cat_wt":10,"q":"Unsure, the status of a culture of accountability for data quality and integrity is unknown or not clearly communicated.","w":2,"id":"a1"}                                                       
-                ]
+                "question":"Is there a process for resolving data-related conflicts or issues?",
+                "category_wt":10
             }
         ]
     },
     {
-        "category":"MDM Integration with Business Processes",
+        "category":"Data Integration and Architecture",
+        "category_wt":10,
         "QList":
         [
             {
                 "name":"q25",
-                "question":"Are there established data integration standards and protocols?",
-                "hints":[
-                    {"cat_ID":7,"cat_wt":15,"q":"Yes, MDM is fully integrated with key business processes, such as customer relationship management or supply chain management. Data from MDM is seamlessly shared and utilized across these processes.","w":5,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Partially, MDM is partially integrated with some key business processes, but there may be gaps or limitations in integration with other processes.","w":4,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"No, MDM is not integrated with any key business processes.","w":1,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"In progress, efforts are underway to integrate MDM with key business processes, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Unsure, the status of MDM integration with key business processes is unknown or not clearly communicated.","w":2,"id":"a1"}                                                        
-                ]
+                "question":"Is there an enterprise-wide data integration strategy?",
+                "category_wt":10
             },
             {
                 "name":"q26",
-                "question":"Is there a defined approach for integrating master data across systems?",
-                "hints":[
-                    {"cat_ID":7,"cat_wt":15,"q":"Yes, there are well-established data standards and guidelines for data entry and maintenance. These standards and guidelines are documented, communicated, and consistently followed.","w":5,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Partially, some data standards and guidelines exist for data entry and maintenance, but they may not cover all relevant aspects or be consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"No, there are no specific established data standards and guidelines for data entry and maintenance.","w":1,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"In progress, efforts are underway to define and establish data standards and guidelines for data entry and maintenance, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Unsure, the status of established data standards and guidelines for data entry and maintenance is unknown or not clearly communicated.","w":2,"id":"a1"}                                      
-                ]
+                "question":"Are data integration standards and best practices defined?",
+                "category_wt":10
             },
             {
                 "name":"q27",
-                "question":"Are there data integration tools or platforms in use?",
-                "hints":[
-                    {"cat_ID":7,"cat_wt":15,"q":"Yes, there are well-established mechanisms in place to ensure MDM alignment with evolving business needs. These mechanisms include regular assessments, feedback loops, and strategic planning to adapt MDM accordingly.","w":5,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Partially, there are some mechanisms to ensure MDM alignment with evolving business needs, but they may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"No, there are no specific mechanisms to ensure MDM alignment with evolving business needs.","w":1,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"In progress, efforts are underway to establish mechanisms for MDM alignment with evolving business needs, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Unsure, the status of mechanisms to ensure MDM alignment with evolving business needs is unknown or not clearly communicated.","w":2,"id":"a1"}                                                      
-                ]
+                "question":"Is there a data catalog or metadata management system in place?",
+                "category_wt":10
             },
             {
                 "name":"q28",
-                "question":"Are there established processes for data mapping, transformation, and harmonization?",
-                "hints":[
-                    {"cat_ID":7,"cat_wt":15,"q":"Yes, there are well-established processes in place to measure and communicate the business value of MDM initiatives. These processes include defining metrics, conducting evaluations, and regularly sharing results with stakeholders.","w":5,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Partially, there are some processes to measure and communicate the business value of MDM initiatives, but they may not cover all aspects or be consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"No, there are no specific processes to measure and communicate the business value of MDM initiatives.","w":1,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"In progress, efforts are underway to establish processes for measuring and communicating the business value of MDM initiatives, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":7,"cat_wt":15,"q":"Unsure, the status of processes to measure and communicate the business value of MDM initiatives is unknown or not clearly communicated.","w":2,"id":"a1"}                                                                        
-                ]
+                "question":"Is there a data architecture that supports data governance requirements?",
+                "category_wt":10
             }
         ]
     },
     {
-        "category":"Change Management and Continuous Improvement",
+        "category":"Data Lifecycle Management",
+        "category_wt":5,
         "QList":
         [
             {
                 "name":"q29",
-                "question":"Are there established data integration standards and protocols?",
-                "hints":[
-                    {"cat_ID":8,"cat_wt":15,"q":"Yes, there is a well-defined change management process in place specifically for MDM initiatives. This process includes planning, communication, training, and stakeholder engagement.","w":5,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Partially, there are some elements of a change management process for MDM initiatives, but it may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"No, there is no specific change management process for MDM initiatives.","w":1,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"In progress, efforts are underway to establish a change management process for MDM initiatives, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Unsure, the status of a change management process for MDM initiatives is unknown or not clearly communicated.","w":2,"id":"a1"}                                                                                          
-                ]
+                "question":"Is there a documented process for data acquisition, creation, and validation?",
+                "category_wt":10
             },
             {
                 "name":"q30",
-                "question":"Is there a defined approach for integrating master data across systems?",
-                "hints":[
-                    {"cat_ID":8,"cat_wt":15,"q":"Yes, there are well-established mechanisms in place to actively solicit feedback and input from stakeholders regarding MDM initiatives. These mechanisms include surveys, focus groups, regular meetings, and feedback channels.","w":5,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Partially, there are some mechanisms to solicit feedback and input from stakeholders, but they may not cover all relevant stakeholders or be consistently utilized.","w":4,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"No, there are no specific mechanisms in place to solicit feedback and input from stakeholders regarding MDM initiatives.","w":1,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"In progress, efforts are underway to establish mechanisms to solicit feedback and input from stakeholders, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Unsure, the status of mechanisms to solicit feedback and input from stakeholders is unknown or not clearly communicated.","w":2,"id":"a1"}                                                       
-                ]
+                "question":"Are data retention and archiving policies established and enforced?",
+                "category_wt":10
             },
             {
                 "name":"q31",
-                "question":"Are there data integration tools or platforms in use?",
-                "hints":[
-                    {"cat_ID":8,"cat_wt":15,"q":"Yes, there are well-established mechanisms in place to ensure MDM alignment with evolving business needs. These mechanisms include regular assessments, feedback loops, and strategic planning to adapt MDM accordingly.","w":5,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Partially, there are some mechanisms to ensure MDM alignment with evolving business needs, but they may not be fully comprehensive or consistently applied.","w":4,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"No, there are no specific mechanisms to ensure MDM alignment with evolving business needs.","w":1,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"In progress, efforts are underway to establish mechanisms for MDM alignment with evolving business needs, but they are not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Unsure, the status of mechanisms to ensure MDM alignment with evolving business needs is unknown or not clearly communicated.","w":2,"id":"a1"}                                                      
-                ]
+                "question":"Is there a mechanism for data obsolescence and disposal?",
+                "category_wt":10
             },
             {
                 "name":"q32",
-                "question":"Are there established processes for data mapping, transformation, and harmonization?",
-                "hints":[
-                    {"cat_ID":8,"cat_wt":15,"q":"Yes, there are regular reviews and updates to MDM policies and procedures. These reviews are conducted at defined intervals, and updates are made to ensure alignment with evolving business needs and best practices.","w":5,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Partially, there are some reviews and updates to MDM policies and procedures, but they may not be consistently conducted or cover all relevant aspects.","w":4,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"No, there are no regular reviews and updates to MDM policies and procedures.","w":1,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"In progress, efforts are underway to establish a process for regular reviews and updates to MDM policies and procedures, but it is not fully implemented.","w":3,"id":"a1"},
-                    {"cat_ID":8,"cat_wt":15,"q":"Unsure, the status of regular reviews and updates to MDM policies and procedures is unknown or not clearly communicated.","w":2,"id":"a1"}                                                                                       
-                ]
+                "question":"Are data backup and recovery strategies in place?",
+                "category_wt":10
+            }
+        ]
+    },
+    {
+        "category":"Data Governance Performance Measurement",
+        "category_wt":5,
+        "QList":
+        [
+            {
+                "name":"33",
+                "question":"Are key performance indicators (KPIs) defined to measure data governance effectiveness?",
+                "category_wt":10
+            },
+            {
+                "name":"34",
+                "question":"Is there a process for monitoring and reporting data governance metrics?",
+                "category_wt":10
+            },
+            {
+                "name":"35",
+                "question":"Are there periodic assessments or audits conducted to evaluate data governance maturity?",
+                "category_wt":10
+            },
+            {
+                "name":"36",
+                "question":"Are data governance improvement initiatives identified and tracked?",
+                "category_wt":10
             }
         ]
     }
