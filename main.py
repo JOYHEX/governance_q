@@ -19,7 +19,7 @@ def plot_score_analysis(df_cal):
 
     # X-axis labels
     ax.set_xticks(index + bar_width / 2)
-    ax.set_xticklabels(df_cal['cat_name'],rotation=90,fontsize=6)
+    ax.set_xticklabels(df_cal['category'],rotation=90,fontsize=6)
 
     # X-axis labels
     ax.set_yticklabels(df_cal['ideal_total_score'],fontsize=6)
@@ -42,7 +42,7 @@ def main():
     # read the file for the questions and the hints
     st.header("Data Governance Maturity Evaluator")
 
-    q_file=open("questions.json")
+    q_file=open("questions copy.json")
     input_data=json.load(q_file)
 
     # create the drop down menu by category
@@ -51,37 +51,45 @@ def main():
             for question in category["QList"]:
                 id = question["name"]
                 ans=question["hints"]
-                sel_option.append(st.selectbox(
-                    question["question"],
-                    (ans),
-                    format_func=lambda x: x["q"] ,
-                    key=f"{id}",
+                sel_option.append(st.radio
+                    (
+                        question["question"],
+                        ("yes", "no","unsure","partial","in-progress"),
+                        key=f"{id}",
+                        horizontal=True
                     )
                 )
         
     df=pd.DataFrame(sel_option)
+    df.columns=['selection']
+    df_cal=pd.DataFrame(input_data)
+
+    # add the score from the selection
+    s=[]
+    score = 0
+    for idx,row in df.iterrows() :
+
+        if row['selection']=='yes':
+            score = score + 5
+        if row['selection']=='partial':
+            score = score + 4
+        if row['selection']=='in-progress':
+            score = score + 3
+        if row['selection']=='no':
+            score = score + 1
+        if row['selection']=='unsure':
+            score = score + 2
+        if (idx+1)%4 ==0:
+            s.append(score)
+            score = 0
+        
+    # calculate the score
+    df_cal['total_score']=s
+    df_cal['ideal_total_score']=20
+    df_cal["total_score"] = df_cal["category_wt"] * df_cal["total_score"] /100
+    df_cal["ideal_total_score"] = df_cal["category_wt"] * 20 /100
 
 
-    df_cat_r=df.groupby(["cat_ID"],as_index=False)["w"].sum()
-
-
-    # change the catedory ID with the names from the input data
-    for idx in  df_cat_r.index:
-        df_cat_r.loc[idx,["cat_name"]] = input_data[idx]["category"] 
-
-    # get the wt of each of the category
-    df_wt=df[["cat_ID","cat_wt"]].drop_duplicates()
-
-    # calculate the wt of each of the response
-    df_score= df.groupby(["cat_ID"],as_index=False)["w"].sum()
-
-    df_cal = df_wt.merge(df_score)
-    df_cal=df_cal.merge(df_cat_r)
-
-
-    # calculate the score of the question response
-    df_cal["total_score"] = df_cal["cat_wt"] * df_cal["w"] /100
-    df_cal["ideal_total_score"] = df_cal["cat_wt"] * 20 /100
 
     # plot
     plot_score_analysis(df_cal)
