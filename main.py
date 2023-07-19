@@ -76,7 +76,7 @@ def main():
     # read the file for the questions and the hints
     st.header("Data Governance Maturity Evaluator")
 
-    q_file=open("questions copy.json")
+    q_file=open("questions.json")
     input_data=json.load(q_file)
 
     # create the drop down menu by category
