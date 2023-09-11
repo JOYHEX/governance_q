@@ -24,9 +24,10 @@ def plot_score_analysis(df_cal):
     # X-axis labels
     ax.set_xticks(index + bar_width / 2)
     ax.set_xticklabels(df_cal['category'],rotation=90,fontsize=6)
-
-    # X-axis labels
-    ax.set_yticklabels(df_cal['ideal_total_score'],fontsize=6)
+    
+    # Y-axis labels
+    ax.tick_params(axis='y', labelsize=6)
+    #ax.set_yticklabels(,fontsize=6)         #(df_cal['ideal_total_score'],fontsize=6)
     # Legend
     ax.legend()
 
